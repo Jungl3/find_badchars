@@ -1,5 +1,5 @@
 # find_badchars
-Python script to find badchars in exploiting development.
+Python script to find badchars in exploit development.
 
 Usage:
 ```
