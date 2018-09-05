@@ -15,10 +15,17 @@ if len(buff) > 764:
 	buff = buff[0:764:1]
 buff = buff.split()
 
+
+
 if len(buff) != len(badchars):
 	init =  len(badchars) - len(buff)
 else:
 	init = 0
+
+
+if len(buff) > 764:
+	buff = buff[0:764]
+	print buff
 
 print bcolors.HEADER + "[i] Char tested : Char received" + bcolors.ENDC
 
